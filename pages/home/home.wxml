@@ -1,0 +1,13 @@
+<view>
+    <van-search shape="round" placeholder="商品搜索" />
+    <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+        <swiper-item wx:for="{{imgList}}" wx:key="id">
+            <block>
+                <image src="{{item.url}}"/>
+            </block>
+        </swiper-item>
+    </swiper>
+    <van-grid square >
+        <van-grid-item wx:for="{{catIconList}}" icon="{{item.url}}" text="{{item.name}}"/>
+    </van-grid>
+</view>

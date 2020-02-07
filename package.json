@@ -1,0 +1,22 @@
+{
+  "name": "boxmall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoxMin/boxshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoxMin/boxshop/issues"
+  },
+  "homepage": "https://github.com/BoxMin/boxshop#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.0.5"
+  }
+}

@@ -2,12 +2,13 @@
   "pages": [
     "pages/home/home"
   ],
+  "usingComponents": {
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "boxshop",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
