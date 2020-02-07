@@ -45,5 +45,26 @@ export const mockdata =  {
             name: '小食',
             url: "http://yanxuan.nosdn.127.net/663f568475c994358bf31bcb67d122fe.png"
         }
+    ],
+    couponList: [
+        {
+            id: '1',
+            name: '限时满减券',
+            desc: '全场通用',
+            tag: '无限制',
+            total: '0',
+            discount: '5.00',
+            min: '99.00',
+            limit: '1',
+        }, {
+            id: '1',
+            name: '限时满减券',
+            desc: '全场通用',
+            tag: '无限制',
+            total: '0',
+            discount: '10.00',
+            min: '99.00',
+            limit: '1',
+        }
     ]
 }

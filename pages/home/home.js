@@ -8,7 +8,8 @@ Page({
    */
   data: {
     imgList: null,
-    catIconList: null
+    catIconList: null,
+    couponList: null
   },
 
   /**
@@ -17,7 +18,8 @@ Page({
   onLoad: function (options) {
     this.setData({
       imgList: mockdata.imgList,
-      catIconList: mockdata.catIconList
+      catIconList: mockdata.catIconList,
+      couponList: mockdata.couponList
     })
   },
 

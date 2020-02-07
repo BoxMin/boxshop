@@ -10,4 +10,5 @@
     <van-grid square >
         <van-grid-item wx:for="{{catIconList}}" icon="{{item.url}}" text="{{item.name}}"/>
     </van-grid>
+    <m-coupon coupon="{{couponList}}"></m-coupon>
 </view>
